@@ -1,0 +1,140 @@
+.education{
+    max-height: 100dvh;
+    height: 100dvh;
+    position: relative;
+    /* display: flex; */
+    /* justify-content: space-around; */
+    /* align-items: center; */
+    /* background: -webkit-linear-gradient(105deg, #090909, #201f2d,#090909); */
+    background-color: #090909;
+}
+
+.education h1{
+    font-family: "Outfit",system-ui;
+    color: #fefefe;
+    font-size: 35px;
+    padding: 50px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 20px;
+}
+
+.education .container{
+    display: grid;
+    grid-template-columns: 1fr 5px 1fr;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.education .container .line{
+    height: 80vh;
+    width: 5px;
+    border-radius: 4px;
+    background-color: white;
+    position: relative;
+}
+
+.education .container .line::before,
+.education .container .line::after{
+    content: "";
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    border: 5px solid white;
+    background-color: #090909;
+    border-radius: 50%;
+    transform: translateX(-50%);
+}
+
+.education .container .line::after{
+    top: 5%;
+}
+.education .container .line::before{
+    top: 55%;
+}
+
+
+.education .container .school,
+.education .container .college{
+    background-color: rgba(255, 255, 255, 0.053);
+    backdrop-filter: blur(20px);
+    width: 70%;
+    padding: 20px 60px;
+    position: relative;
+    border-radius: 8px;
+    color: white;
+}
+.education .container .college{
+    justify-self: right;
+    /* align-self: top; */
+    align-self: flex-start;
+    margin-right: 10%;
+    margin-top: 30px;
+}
+
+.education .container .school{
+    justify-self: left;
+    align-self: flex-end;
+    margin-left: 10%;
+    margin-bottom: 30px;
+}
+
+.education .container div h2{
+    margin-bottom: 20px;
+    font-family: "Outfit",system-ui;
+    color: #DEAD44;
+}
+.education .container div h2 svg{
+    height: 30px;
+    margin-right: 20px;
+}
+.education .container div h4{
+    margin-bottom: 10px;
+    color: #aca7cb;
+    letter-spacing: .2px;
+    font-family: "Outfit",system-ui;
+}
+.education .container div p{
+    font-size: 14px;
+    font-style: italic;
+    font-family: "Inter",system-ui;
+    letter-spacing: 1px;
+}
+
+.education .container div a{
+    color: #aca7cb;
+    margin-left: 5px;
+}
+.education .container div a:hover{
+    color: #787586;
+}
+
+
+
+@media (max-width:600px) {
+    .education{
+        padding-top: 50px;
+    }
+    .education .container{
+        grid-template-columns: 1fr;
+    }
+    .education .line{
+        display: none;
+    }
+    .education .container .college,
+    .education .container .school{
+        justify-self: start;
+        align-self: flex-start; 
+        margin: 0;
+        width: 90%;
+        margin-left: 5%;
+        margin-bottom: 40px;
+    }
+    .education .container div p{
+        margin-top: 20px;
+        letter-spacing: 2px;
+        font-size: 13px;
+    }
+}

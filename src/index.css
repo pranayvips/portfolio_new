@@ -1,0 +1,73 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+:root {
+  /* color-scheme: light dark; */ 
+
+  /* light themee */
+  --bg-color: #090909;
+  --text-color: #fff;
+}
+
+
+body{
+  background-color: var(--bg-color);
+  overflow-x: hidden;
+  /* overflow-y: hidden; */
+  /* height: 100vh; */
+}
+
+@keyframes fadeIn {
+  from{opacity: 0;}
+  to{opacity: 1;}
+}
+
+
+.c-scrollbar{
+  z-index: 200 !important;
+
+}
+.c-scrollbar_thumb {
+  background-color: #aca9bb !important;
+}
+
+.top{
+  position: fixed;
+  display: none;
+  bottom: 30px;
+  right: 30px;
+  border: 1px solid white;
+  color: white;padding: 5px 7px;
+  font-size: 16px;
+  transition: color .3s,background-color .4s;
+  z-index: 300;
+  background-color: var(--bg-color);
+}
+.top:hover{
+  color: var(--bg-color);
+  background-color: white;
+}
+.top:hover::after{
+  content: "Scroll to Top";
+  position: absolute;
+  top: -30px;
+  letter-spacing: .3px;
+  font-family: "Inter";
+  font-weight: 600;
+  border-radius: 2px;
+  left: -20px;
+  font-size: 10px;
+  padding: 2px 5px;
+  white-space: nowrap;
+  color: var(--bg-color);
+  background-color: white;
+  animation: fadeIn .4s;
+}

@@ -1,0 +1,1380 @@
+{
+  "web-003":{
+    "year": 2023,
+    "date": "16 Feb 2025",
+    "title": "Sentiment Analysis",
+    "shortDesc": "This is a sentiment analysis webpage where you can enter a product name, and the program will fetch its reviews. It then provides a rating indicating whether you should buy it or not, along with the total number of ratings and top review comments.",
+    "live":"",
+    "source": "",
+    "images": [
+      [
+        "web-003/0.png",
+        "A sleek and modern-looking page designed for a smooth user experience."
+      ],
+      [
+        "web-003/1.png",
+        ""
+      ],
+      [
+        "web-003/2.png",
+        ""
+      ],
+      [
+        "web-003/3.png",
+        ""
+      ],
+      [
+        "web-003/4.png",
+        ""
+      ]
+    ],
+    "desc": "This is a sentiment analysis webpage designed to help users make informed purchasing decisions. By entering the name of a product, the program automatically retrieves its reviews from various sources. It then analyzes these reviews and provides a rating that indicates whether the product is worth buying or not. Additionally, the webpage displays the total number of ratings the product has received, giving users an idea of its popularity. To further assist in decision-making, the program also showcases the top review comments, highlighting key feedback from other buyers.",
+    "language": [
+      [
+        "Html",
+        36
+      ],
+      [
+        "Css",
+        32
+      ],
+      [
+        "Javascript",
+        21
+      ],
+      [
+        "Flask",
+        11
+      ],[
+        "Data Science",
+        10
+      ]
+    ],
+    "features": [
+      [
+        "Sentiment-Based Rating.",
+        "Review Retrieval"
+      ],
+      [
+        "Offline Support",
+        "CSV File"
+      ],
+      [
+        "User-Friendly Interface.",
+        "Adaptive"
+      ],
+      [
+        "Track Product Score.",
+        "To Buy or Skip"
+      ],
+      [
+        "Real-Time Analysis.",
+        "automatically"
+      ],
+      [
+        "Automated Review Fetching.",
+        "API Based"
+      ]
+    ],
+    "size": "7.7 Mb",
+    "future": [
+      "Include AI.",
+      "Multi-Platform Review Aggregation",
+      "Voice Input Support.",
+      "User Feedback Integration.",
+      "Comparision feature."
+    ],
+    "bugs": [
+      "Slow Processing",
+      "Incorrect Sentiment Detection",
+      "Duplicate Reviews "
+    ],
+    "projectType": "flask",
+    "review": [
+      ]
+  },
+  "flu-000":{
+    "year": 2025,
+    "date": "20 Jan 2025",
+    "title": "WhatsApp",
+    "shortDesc": "This Android app is a WhatsApp clone built with Flutter and Firebase, allowing messaging and calls. It includes chat options, a settings page for customization, multiple themes, and background chat notifications.",
+    "live":"",
+    "source": "",
+    "images": [
+      [
+        "flu-000/0.jpg",
+        "A sleek and modern-looking page designed for a smooth user experience."
+      ],
+      [
+        "flu-000/1.jpg",
+        "Multiple options for settings and customizations"
+      ],
+      [
+        "flu-000/2.jpg",
+        "Settings page for your own preference and customization"
+      ],
+      [
+        "flu-000/3.jpg",
+        "Add a avaliable List of friends"
+      ],
+      [
+        "flu-000/4.jpg",
+        "Theme available based on your demand."
+      ],
+      [
+        "flu-000/5.jpg",
+        "Chat screen get multiple action to send msg , image, audio, document, etc."
+      ],
+      [
+        "flu-000/6.jpg",
+        "Take Images , status etc"
+      ]
+    ],
+    "desc": "This Android app is a WhatsApp clone developed using Flutter and Firebase, enabling users to send messages and make calls seamlessly. It offers a full chat experience with various customization options through the settings page. Users can personalize their experience with multiple theme choices and manage their preferences easily. Additionally, the app supports background chat notifications, ensuring users stay updated on new messages even when the app is not actively open.",
+    "language": [
+      [
+        "Flutter",
+        80
+      ],
+      [
+        "Firebase",
+        20
+      ]
+    ],
+    "features": [
+      [
+        "Instant Messaging & Calls.",
+        "Seamless"
+      ],
+      [
+        "Flutter & Firebase Integration",
+        "smooth"
+      ],
+      [
+        "Multiple Themes.",
+        "Adaptive"
+      ],
+      [
+        "Background Notifications.",
+        "on app closed"
+      ],
+      [
+        "Real-Time Chat.",
+        "Instant!"
+      ],
+      [
+        "End-to-End Encryption.",
+        "Privacy ensured"
+      ]
+    ],
+    "size": "24.3 Mb",
+    "future": [
+      "Integration of AI as meta AI",
+      "Groups support option",
+      "Communities.",
+      "Status Updates.",
+      "Sync Feature.",
+      "In-App Payment Feature.",
+      "Multi-Device Support"
+    ],
+    "bugs": [
+      "Slow Processing",
+      "App may freeze on error's",
+      "Sometimes failed to load messages."
+    ],
+    "projectType": "flutter",
+    "review": [
+      ]
+  },
+  "flu-001":{
+    "year": 2024,
+    "date": "30 Dec 2024",
+    "title": "YouTube",
+    "shortDesc": "This YouTube clone, built with Flutter and the YouTube API, offers ad-free video playback, local data storage with Hive, channel subscriptions, history tracking, live search suggestions, and video commenting for easy access.",
+    "live":"",
+    "source": "",
+    "images": [
+      [
+        "flu-001/0.jpg",
+        "A sleek and modern-looking page designed for a smooth user experience."
+      ],
+      [
+        "flu-001/1.jpg",
+        "Multiple options for settings and customizations"
+      ],
+      [
+        "flu-001/2.jpg",
+        "Settings page for your own preference and customization"
+      ],
+      [
+        "flu-001/3.jpg",
+        "Add a avaliable List of friends"
+      ],
+      [
+        "flu-001/4.jpg",
+        "Theme available based on your demand."
+      ],
+      [
+        "flu-001/5.jpg",
+        "Chat screen get multiple action to send msg , image, audio, document, etc."
+      ],
+      [
+        "flu-001/6.jpg",
+        "Take Images , status etc"
+      ],
+      [
+        "flu-001/7.jpg",
+        "Take Images , status etc"
+      ],
+      [
+        "flu-001/8.jpg",
+        "Take Images , status etc"
+      ]
+    ],
+    "desc": "This YouTube clone, developed using Flutter and the Flutter YouTube API, provides an ad-free video streaming experience. It utilizes Hive for local data storage, allowing users to manage their subscriptions, track watch history, and organize playlists. The app features live search suggestions for quick video discovery and enables users to comment on videos, making it easier to revisit them later. With a smooth and user-friendly interface, it enhances the overall video-watching experience while offering greater control over content management.",
+    "language": [
+      [
+        "Flutter",
+        100
+      ]
+    ],
+    "features": [
+      [
+        "Contains no Ads.",
+        "free of that spams"
+      ],
+      [
+        "Distraction free Interface",
+        "focus"
+      ],
+      [
+        "History Support.",
+        "Keep track of your progress"
+      ],
+      [
+        "Mini Player Support.",
+        "Watch while you do other work"
+      ],
+      [
+        "Youtube Clone.",
+        "Exclusive!"
+      ],
+      [
+        "Safe, Secure, Fast.",
+        "Start Searching..."
+      ]
+    ],
+    "size": "21.8 Mb",
+    "future": [
+      "Using Machine learning to provide reccomendation",
+      "Option for sign in to sync data",
+      "Integration of AI.",
+      "Voice Support Feature.",
+      "Download Feature.",
+      "Quick Access.",
+      "User-Friendly Interface ",
+      "Built with Flutter & YouTube API "
+    ],
+    "bugs": [
+      "Playback Issues",
+      "Search Lag",
+      "Comment Feature Bugs.",
+      "App may sometimes go offline",
+      "Mini Player reload the video",
+      "App Crashes",
+      "UI Glitches "
+    ],
+    "projectType": "flutter",
+    "review": [
+      ]
+  },
+  "web-000": {
+    "year": 2025,
+    "date": "06 Jan 2025",
+    "title": "Productive Start Page",
+    "shortDesc": "Developed a customizable browser home page with a to-do manager, productivity settings, and real-time weather updates via OpenWeatherMap for 200,000+ cities.",
+    "live":"",
+    "source": "https://github.com/pranayvips/homePage",
+    "images": [
+      [
+        "web-000/1.png",
+        "A sleek and modern-looking page designed for a smooth and responsive browser experience."
+      ],
+      [
+        "web-000/0.png",
+        "A modern browser page with multiple clock options, including a stylish analog clock and a precise digital display for a customizable timekeeping experience."
+      ],
+      [
+        "web-000/2.png",
+        "Built-in support for your bookmarks, making it easy to find, organize, and manage them efficiently."
+      ],
+      [
+        "web-000/6.png",
+        "An integrated weather report providing real-time updates for a convenient and informed browsing experience."
+      ],
+      [
+        "web-000/3.png",
+        "A settings tab to personalize and customize the page according to your preferences."
+      ],
+      [
+        "web-000/4.png",
+        "A to-do tab that helps you manage your tasks efficiently and stay organized."
+      ],
+      [
+        "web-000/5.png",
+        "A redesigned context menu with a fresh look for an improved and seamless user experience."
+      ]
+    ],
+    "desc": "A visually enhanced and customizable home page for the browser’s tab, integrating features like a to-do list manager, settings to improve user productivity and enhance the browsing experience. • Implemented real-time weather updates using the OpenWeatherMap API covering over 200,000+ cities, allowing users to stay informed while efficiently managing tasks.",
+    "language": [
+      [
+        "Html",
+        32.5
+      ],
+      [
+        "Css",
+        24.7
+      ],
+      [
+        "Javascript",
+        41.8
+      ],
+      [
+        "Python",
+        1.1
+      ]
+    ],
+    "features": [
+      [
+        "Built In Weather Report",
+        ""
+      ],
+      [
+        "Unlimited Collection of wallpaper",
+        ""
+      ],
+      [
+        "Get new Quotes daily",
+        ""
+      ],
+      [
+        "Bookmark Support",
+        ""
+      ],
+      [
+        "Mutliple Customization option",
+        ""
+      ],
+      [
+        "To-Do list manager",
+        ""
+      ]
+    ],
+    "size": "9.06 Mb",
+    "future": [
+      "A notification can be given for the to-do list.",
+      "A link can be created for a mobile device.",
+      "More animations can be added.",
+      "Some redesigns can be made to the settings and weather pages.",
+      "Suggestion's from history"
+    ],
+    "bugs": [
+      "The page is not responsive on mobile devices.",
+      "Sometimes, clicks don’t register on the first attempt.",
+      "Bookmarks cannot be removed.",
+      "The location must be manually set for the weather.",
+      "Wallpaper sometimes fails to load."
+    ],
+    "projectType": "web",
+    "review": [
+      [
+        "Pranay",
+        "4",
+        "11/Feb/2025"
+      ],
+      [
+        "ankit",
+        "2",
+        "11/Feb/2025"
+      ],
+      [
+        "prasad",
+        "3",
+        "11/Feb/2025"
+      ]
+    ]
+  },
+  "web-001":{
+    "year": 2025,
+    "date": "25 Feb 2024",
+    "title": "Quizzer",
+    "shortDesc": "An interactive quiz website with a user-friendly design, animations, images, and audio, allowing users to create and participate in quizzes for an engaging learning experience.",
+    "live":"",
+    "source": "https://github.com/pranayvips/quiz/tree/main/quizz%20game",
+    "images": [
+      [
+        "web-001/0.png",
+        "A sleek and modern-looking page designed for a smooth user experience."
+      ],
+      [
+        "web-001/1.png",
+        ""
+      ],
+      [
+        "web-001/2.png",
+        ""
+      ],
+      [
+        "web-001/3.png",
+        ""
+      ],
+      [
+        "web-001/4.png",
+        ""
+      ],
+      [
+        "web-001/5.png",
+        ""
+      ],
+      [
+        "web-001/6.png",
+        ""
+      ]
+    ],
+    "desc": "Developed an interactive quiz website using HTML, CSS, and JavaScript, enabling users to create and participate in quizzes for an engaging learning experience. Designed a visually appealing interface with animations, images, and audio to enhance user engagement. Included two default quizzes and custom quiz creation features for versatile learning.",
+    "language": [
+      [
+        "Html",
+        36.3
+      ],
+      [
+        "Css",
+        33.1
+      ],
+      [
+        "Javascript",
+        30.6
+      ]
+    ],
+    "features": [
+      [
+        "Engaging design.",
+        "Clean Look"
+      ],
+      [
+        "Image & audio support.",
+        "Multimedia support"
+      ],
+      [
+        "Boost features. (powerup's)",
+        "Enhancements"
+      ],
+      [
+        "Build your quiz.",
+        "Creativity"
+      ],
+      [
+        "Theme customization.",
+        "Personalization"
+      ],
+      [
+        "Adaptive layout.",
+        "Responsive"
+      ]
+    ],
+    "size": "24.3 Mb",
+    "future": [
+      "An AI-powered quiz can be generated. On user-demand Topic's",
+      "Syllabus-based quizzes can be generated for students.",
+      "Machine learning can analyze students' weaknesses.",
+      "An AI-powered teacher can be provided.",
+      "Can be uploaded to a server for people to connect."
+    ],
+    "bugs": [
+      "The page is not mobile-friendly.",
+      "Some features are incomplete.",
+      "May occasionally hang."
+    ],
+    "projectType": "web",
+    "review": [
+      ]
+  },
+  "web-002":{
+    "year": 2023,
+    "date": "09 Dec 2023",
+    "title": "Digital Periodic Reference",
+    "shortDesc": "A user-friendly periodic table website with detailed element information, images, and an intuitive interface. Includes interactive games to enhance engagement and improve memorization.",
+    "live":"",
+    "source": "",
+    "images": [
+      [
+        "web-002/0.png",
+        "A sleek and modern-looking page designed for a smooth user experience."
+      ],
+      [
+        "web-002/1.png",
+        ""
+      ],
+      [
+        "web-002/2.png",
+        ""
+      ],
+      [
+        "web-002/3.png",
+        ""
+      ],
+      [
+        "web-002/4.png",
+        ""
+      ],
+      [
+        "web-002/5.png",
+        ""
+      ],
+      [
+        "web-002/6.png",
+        ""
+      ]
+    ],
+    "desc": "A visually appealing and user-friendly periodic table website, featuring detailed element information,images, and an intuitive interface.Designed to help students and enthusiasts explore chemical elements effortlessly.• Integrated 2+ interactive games to enhance engagement and improve memorization. These games reinforce learningthrough fun challenges that help users retain key information about elements, atomic structures, and properties","language": [
+      [
+        "Html",
+        82.2
+      ],
+      [
+        "Javascript",
+        12.1
+      ],
+      [
+        "Css",
+        5.4
+      ],
+      [
+        "Python",
+        1
+      ]
+    ],
+    "features": [
+      [
+        "Data available for download..",
+        ""
+      ],
+      [
+        "Includes 2+ games to help remember elements.",
+        ""
+      ],
+      [
+        "Multiple ways to analyze properties.",
+        ""
+      ],
+      [
+        "Play games and track your score.",
+        ""
+      ],
+      [
+        "Track Your Score.",
+        ""
+      ],
+      [
+        "Adaptive layout.",
+        ""
+      ]
+    ],
+    "size": "24.3 Mb",
+    "future": [
+      "A 3-d Model for element's",
+      "Include AI for better learning.",
+      "A virtual lab for experiments.",
+      "Page like history & effect of temp.",
+      "Can be extended to organic reaction's also."
+    ],
+    "bugs": [
+      "The page is not mobile-friendly.",
+      "Some features might be incomplete.",
+      "Poor Design"
+    ],
+    "projectType": "web",
+    "review": [
+      ]
+  },
+  "py-002":{
+    "year": 2022,
+    "date": "13 Jan 2022",
+    "title": "Restaurant Management",
+    "shortDesc": "THIS WAS MY FIRST EVER PROJECT I HAVE MADE IN & I HAVE MADE IT IN CLASS 11 (2022) ,SO THE APP AND UI MAY LAG AND IS OUTDATED.This restaurant management app, built with Python Tkinter, allows users to browse categorized food items, add them to a cart, manage orders, and proceed with payment. It includes a profile section, a feedback feature, and login/signup options for tracking user data.",
+    "live":"",
+    "source": "",
+    "images": [
+      [
+        "py-002/0.png",
+        ""
+      ],
+      [
+        "py-002/1.png",
+        ""
+      ],
+      [
+        "py-002/2.png",
+        ""
+      ],
+      [
+        "py-002/3.png",
+        ""
+      ],
+      [
+        "py-002/4.png",
+        ""
+      ],
+      [
+        "py-002/5.png",
+        ""
+      ],
+      [
+        "py-002/6.png",
+        ""
+      ],
+      [
+        "py-002/7.png",
+        ""
+      ],
+      [
+        "py-002/8.png",
+        ""
+      ]
+    ],
+    "desc": "This restaurant management app, developed using Python Tkinter, provides a seamless food ordering experience. Users can browse through a well-organized menu where items are categorized based on their type. They can add selected food items to their cart, review and manage their orders, and proceed with payment. The app also includes a profile section where users can track their order history and manage their personal details. Additionally, a feedback section allows users to share their experiences and suggestions. With login and signup functionality, users can securely store and retrieve their data for a personalized experience.",
+    "language": [
+      [
+        "Python",
+        100
+      ]
+    ],
+    "features": [
+      [
+        "Category wise products",
+        "Easily manageable"
+      ],
+      [
+        "User Authentication",
+        "every user matter!"
+      ],
+      [
+        "Feedback System.",
+        "Provide a feedback"
+      ],
+      [
+        "Get mail on completion of order.",
+        "Get updated all the time"
+      ],
+      [
+        "Simple GUI.",
+        "Basic -)"
+      ],
+      [
+        "Multiple section.",
+        "cart,profile,history etc"
+      ]
+    ],
+    "size": "17.4 Mb",
+    "future": [
+      "Category wise products.",
+      "Cart.",
+      "Voice Input Support.",
+      "Debt Settlement Suggestions.",
+      "Expense Categorization.",
+      "Connected through server."
+    ],
+    "bugs": [
+      "App may not respond to screen.",
+      "Many parts are out of the screen.",
+      "App lag at every click.",
+      "There is no consistent single screen",
+      "Screen may change for some clicks",
+      "Button's placing can be somewhat random",
+      "A boring interface",
+      "It may occur that you need to login everytime."
+    ],
+    "projectType": "python",
+    "review": [
+      ]
+  },
+  "web-004":{
+    "year": 2024,
+    "date": "14 Jun 2024",
+    "title": "Split Money",
+    "shortDesc": "This is a split app that helps manage expenses when going out with friends. It calculates how much each person needs to pay and provides a detailed transaction list. The app also includes a history tab, easy sign-up options, and features to manage past data and share it with friends.",
+    "live":"",
+    "source": "https://github.com/pranayvips/split",
+    "images": [
+      [
+        "web-004/0.png",
+        "A sleek and modern-looking page designed for a smooth user experience."
+      ],
+      [
+        "web-004/1.png",
+        ""
+      ],
+      [
+        "web-004/2.png",
+        ""
+      ],
+      [
+        "web-004/3.png",
+        ""
+      ],
+      [
+        "web-004/4.png",
+        ""
+      ],
+      [
+        "web-004/5.png",
+        ""
+      ]
+    ],
+    "desc": "This is a bill-splitting app designed to simplify expense management when going out with friends. It helps calculate how much each person needs to pay, ensuring fair cost distribution. The app provides a detailed transaction list, making it easy to track payments and dues. Additionally, it includes a history tab where users can review past expenses and transactions. With an easy sign-up process, users can quickly create accounts and securely store their data. The app also allows seamless management of older records and provides an option to share expense details with friends for better coordination.",
+    "language": [
+      [
+        "Html",
+        33.2
+      ],
+      [
+        "Javascript",
+        33.4
+      ],
+      [
+        "Css",
+        33.6
+      ]
+    ],
+    "features": [
+      [
+        "Automated Expense Splitting",
+        "Debt/Credit"
+      ],
+      [
+        "Keeps track of History",
+        "History Tab"
+      ],
+      [
+        "Group Expense Handling.",
+        "Manage"
+      ],
+      [
+        "User-Friendly Interface.",
+        "Simple & Elegant"
+      ],
+      [
+        "All Transaction.",
+        "Manage at one place"
+      ],
+      [
+        "Adaptive layout.",
+        "Responsive design"
+      ]
+    ],
+    "size": "456 Kb",
+    "future": [
+      "AI-Based Expense Insights.",
+      "Bill Scanning Feature.",
+      "Voice Input Support.",
+      "Debt Settlement Suggestions.",
+      "Expense Categorization.",
+      "Connected through server."
+    ],
+    "bugs": [
+      "Duplicate Entries.",
+      "UI Glitches. Reload Required.",
+      "Data does not sync."
+    ],
+    "projectType": "web",
+    "review": [
+      ]
+  },
+  "fla-000":{
+    "year": 2024,
+    "date": "15 Jan 2024",
+    "title": "Tic-Tac-Toe",
+    "shortDesc": "This Tic Tac Toe web app, built with Flask, offers adjustable difficulty levels and 1v1 gameplay. It includes a chat feature, a profile page to track wins and losses, and a notification page to keep users updated.",
+    "live":"",
+    "source": "",
+    "images": [
+      [
+        "fla-000/2.png",
+        "A sign up page. Enter your name."
+      ],
+      [
+        "fla-000/0.png",
+        "A simple UI interface for with multiple modes avaliable."
+      ],
+      [
+        "fla-000/1.png",
+        "You won the game."
+      ],
+      [
+        "fla-000/3.png",
+        "A Profile Page that keeps track of your matches won. Date joined and your name."
+      ],
+      [
+        "fla-000/4.png",
+        "Notification page that keep's you updated."
+      ],
+      [
+        "fla-000/5.png",
+        "Select your dificulty level. Wanna play 1v1 :)?"
+      ],
+      [
+        "fla-000/6.png",
+        "Global chat screen. Get you connected to the other people."
+      ],
+      [
+        "fla-000/7.png",
+        "Provide a feedback. are you happy?"
+      ]
+    ],
+    "desc": "This Tic Tac Toe web app, developed using Flask, allows users to play against varying difficulty levels or compete in 1v1 matches. It features a chat screen for real-time interaction, a profile page that tracks wins and losses, and a notification page to keep users updated on game events. The integrated chat system ensures seamless communication with other players, enhancing the overall gaming experience.",
+    "language": [
+      [
+        "Html",
+        13
+      ],
+      [
+        "Javascript",
+        22
+      ],
+      [
+        "Css",
+        40
+      ],[
+        "Flask",
+        10
+      ]
+    ],
+    "features": [
+      [
+        "Single & Multiplayer Mode",
+        "Single? don’t worry play with us"
+      ],
+      [
+        "Real-Time Chat",
+        "Chat with other users."
+      ],
+      [
+        "Profile Tracking.",
+        "Keep track of your winnning."
+      ],
+      [
+        "Notification System.",
+        "get notified."
+      ],
+      [
+        "Flask-Based Backend.",
+        "Smooth performance"
+      ],
+      [
+        "Simple & Clean look.",
+        "User-Friendly Interface"
+      ]
+    ],
+    "size": "50 Kb",
+    "future": [
+      "Provide a Leaderboard.",
+      "See other profiles.",
+      "Custom Themes.",
+      "Play online.",
+      "Achievement & Rewards.",
+      "Voice based action.",
+      "Include more games."
+    ],
+    "bugs": [
+      "No new notification is provided.",
+      "Chat Duplicate.",
+      "Delays in result"
+    ],
+    "projectType": "flask",
+    "review": [
+      ]
+  },
+  "web-008":{
+    "year": 2024,
+    "date": "15 Jan 2024",
+    "title": "To-Do (extension)",
+    "shortDesc": "This browser extension tracks to-do tasks while you browse, allowing task completion, editing, and theme customization. It also includes lock protection for privacy.",
+    "live":"",
+    "source": "",
+    "images": [
+      [
+        "web-008/0.png",
+        "A sleek and modern-looking page designed for a smooth user experience. Here Enter your name & password."
+      ],
+      [
+        "web-008/1.png",
+        "A minimal look home page"
+      ],
+      [
+        "web-008/2.png",
+        "Add tasks, don’t forget to check them after its done."
+      ],
+      [
+        "web-008/3.png",
+        "Edit your todo easily on 1 click."
+      ],
+      [
+        "web-008/4.png",
+        "Multiple theme support."
+      ]
+    ],
+    "desc": "This browser extension helps you manage your to-do tasks while browsing, allowing you to track, edit, and mark tasks as completed. It offers theme customization to match user preferences and includes a lock protection feature to ensure privacy and secure your task list.",
+    "language": [
+      [
+        "Html",
+        15
+      ],
+      [
+        "Javascript",
+        35
+      ],
+      [
+        "Css",
+        50
+      ]
+    ],
+    "features": [
+      [
+        "Real-Time Task Tracking",
+        "your task"
+      ],
+      [
+        "Task Completion & Editing",
+        "Customize"
+      ],
+      [
+        "Theme Customization.",
+        "Personalization"
+      ],
+      [
+        "Lock Protection.",
+        "Secure it"
+      ],
+      [
+        "Lightweight & Fast.",
+        "Max performance"
+      ],
+      [
+        "Simple & Clean look.",
+        "User-Friendly design"
+      ]
+    ],
+    "size": "50 Kb",
+    "future": [
+      "Cloud Sync – Sync tasks across multiple devices.",
+      "Voice Input Support – Add tasks using voice commands for convenience.",
+      "Recurring Tasks – Set reminders for daily, weekly, or monthly tasks.",
+      "Collaborative Lists – Share and manage tasks with friends or colleagues.",
+      "Notification Reminders – Get alerts for pending tasks.",
+      "AI-Based Smart Suggestions – Suggest task priorities based on user habits."
+    ],
+    "bugs": [
+      "No option for password change."
+    ],
+    "projectType": "web",
+    "review": [
+      ]
+  },
+  "py-005":{
+    "year": 2022,
+    "date": "12 Apr 2022",
+    "title": "Quizzer",
+    "shortDesc": "This quiz app, built with Python Tkinter, features 11 default questions. Background music plays throughout, with a success sound for correct answers. However, a wrong answer resets the game to question 0. After completing the quiz, users can rate their experience.",
+    "live":"",
+    "source": "",
+    "images": [
+      [
+        "py-005/0.png",
+        ""
+      ],
+      [
+        "py-005/1.png",
+        ""
+      ],
+      [
+        "py-005/2.png",
+        ""
+      ],
+      [
+        "py-005/3.png",
+        ""
+      ],
+      [
+        "py-005/4.png",
+        ""
+      ],
+      [
+        "py-005/5.png",
+        ""
+      ]
+    ],
+    "desc": "This quiz app, developed using Python Tkinter, provides an engaging experience with 11 default questions that users must answer. Background music enhances the atmosphere, and a special sound effect plays for every correct response. However, if a user answers incorrectly, the game resets to the first question, adding a challenge to the gameplay. Once the quiz is completed, players have the option to rate their experience, making it interactive and feedback-driven. The combination of music, sound effects, and a reset feature makes the quiz both fun and competitive.",
+    "language": [
+      ["Python",100]
+    ],
+    "features": [
+      [
+        "Predefined Quiz Questions",
+        "On Demand"
+      ],
+      [
+        "Background Music",
+        "better focus"
+      ],
+      [
+        "Game Reset on Wrong Answer",
+        "Think twice!"
+      ],
+      [
+        "User Rating System .",
+        "Feedback matter"
+      ],
+      [
+        "Simple GUI with Python Tkinter.",
+        "Clean."
+      ],
+      [
+        "Sound Effects.",
+        "keeps you engaged"
+      ]
+    ],
+    "size": "25 Mb",
+    "future": [
+      "Custom Quiz Mode.",
+      "Multiple Difficulty Levels.",
+      "Leaderboard System.",
+      "Visual Enhancements,",
+      "Multiplayer Mode.",
+      "Mobile-Friendly Interface"
+    ],
+    "bugs": [
+      "There are different screen.",
+      "Freezing Issue.",
+      "Music keeps refreshing on every right answer."
+    ],
+    "projectType": "python",
+    "review": [
+      ]
+  },
+  "web-020":{
+    "year": 2023,
+    "date": "06 May 2023",
+    "title": "Solar System",
+    "shortDesc": "This is a basic solar system visualization that allows users to see details about each planet, the Sun, or asteroids by hovering the mouse over them.",
+    "live":"",
+    "source": "https://github.com/pranayvips/split",
+    "images": [
+      [
+        "web-020/0.png",
+        "A clean look and a basic info about each object when you hover it"
+      ],
+      [
+        "web-020/1.png",
+        "Extra option's to get to know each thing better."
+      ]
+    ],
+    "desc": "This is an interactive solar system visualization that provides a detailed view of celestial bodies, including planets, the Sun, and asteroids. Users can hover their mouse over each object to reveal informative details, making it an engaging and educational experience. The visual representation helps users understand the relative positions and characteristics of different celestial bodies in a simple and interactive manner.",
+    "language": [
+      [
+        "Html",
+        35
+      ],
+      [
+        "Javascript",
+        12
+      ],
+      [
+        "Css",
+        53
+      ]
+    ],
+    "features": [
+      [
+        "On Hover Effect",
+        "At Bottom-Left"
+      ],
+      [
+        "Shows Basic info",
+        ":_)"
+      ],
+      [
+        "2-d Visualisation.",
+        "Clean Look"
+      ],
+      [
+        "Simple!.",
+        "Elegant"
+      ],[
+        "",""
+      ],[
+        "",
+        ""
+      ]
+    ],
+    "size": "1.1 Mb",
+    "future": [
+      "The model can be converted to 3-D.",
+      "A more detailed info can be provided.",
+      "AI can be integrated.",
+      "The rotate speed can be adjusted to planets.",
+      "Can be extend to outside of solar system.",
+      "Detailed info page for each object."
+    ],
+    "bugs": [
+      "Some features may not work.",
+      "All Planet's is not visible in single screen.",
+      "Moon's rotation around earth is chaos."
+    ],
+    "projectType": "web",
+    "review": [
+      ]
+  },
+  "web-015":{
+    "year": 2023,
+    "date": "03 Apr 2023",
+    "title": "Will you be my Valentine?",
+    "shortDesc": "A Simple Fun website",
+    "live":"",
+    "source": "https://github.com/pranayvips/webProjects/tree/main/date",
+    "images": [
+      [
+        "web-015/0.png",
+        "A Simple Home Page, you can't say no :)"
+      ],
+      [
+        "web-015/1.png",
+        "Yayyy."
+      ],
+      [
+        "web-015/2.png",
+        "Let's Fix a date."
+      ],
+      [
+        "web-015/3.png",
+        "Thank You!."
+      ]
+    ],
+    "desc": "A Simple website made using html, css, Js.",
+    "language": [
+      [
+        "Html",
+        26
+      ],
+      [
+        "Javascript",
+        23
+      ],
+      [
+        "Css",
+        54
+      ]
+    ],
+    "features": [
+      [
+        "Can't say no",
+        "try yourself"
+      ],
+      [
+        "Clean & Simple",
+        "look"
+      ],
+      [
+        "Media support.",
+        "Gif images"
+      ],
+      [
+        "Choose dates.",
+        "14 feb?"
+      ],
+      [
+        "Reponsive Design.",
+        "Adaptive"
+      ],
+      [
+        "Impressed?",
+        "yes!"
+      ]
+    ],
+    "size": "1.1 Mb",
+    "future": [
+      "You may can send it to some person.",
+      "Keep track of your request accepted. :(",
+      "Check someone's valentine."
+    ],
+    "bugs": [
+      "May lag at once."
+    ],
+    "projectType": "web",
+    "review": [
+      ]
+  },
+  "web-013":{
+    "year": 2023,
+    "date": "08 Apr 2023",
+    "title": "Simple Calculator",
+    "shortDesc": "A Simple Calculator",
+    "live":"",
+    "source": "https://github.com/pranayvips/webProjects/tree/main/date",
+    "images": [
+      [
+        "web-013/0.png",
+        "A Simple Home Page, with simple mathematical operation's"
+      ],
+      [
+        "web-013/1.png",
+        "Perform Calculations."
+      ],
+      [
+        "web-013/2.png",
+        "Keep track of the hisotry of calculations."
+      ]
+    ],
+    "desc": "A Simple website made using html, css, Js. Can Perform simple math operations also keeps track of history, in order to avoid hussle.",
+    "language": [
+      [
+        "Html",
+        15
+      ],
+      [
+        "Javascript",
+        45
+      ],
+      [
+        "Css",
+        40
+      ]
+    ],
+    "features": [
+      [
+        "Math Operation",
+        "try yourself"
+      ],
+      [
+        "Clean & Simple",
+        "look"
+      ],
+      [
+        "History support.",
+        "at history tab!"
+      ],
+      [
+        "Animations.",
+        "-|-"
+      ],
+      [
+        "Reponsive Design.",
+        "Adaptive"
+      ],
+      [
+        "Support",
+        "customization"
+      ]
+    ],
+    "size": "100 kb",
+    "future": [
+      "Scan a mathematical Problem.",
+      "Develop it to solve more complex operations.",
+      "Integrate ai to show step by step solutions.",
+      "User base interface."
+    ],
+    "bugs": [
+      "The calculation may not be accurate for large data",
+      "Does not support for mobile device",
+      "Sometimes it may give in correct solution."
+    ],
+    "projectType": "web",
+    "review": [
+      ]
+  },
+  "py-008":{
+    "year": 2022,
+    "date": "03 Mar 2022",
+    "title": "Plane Seat Reservation Program",
+    "shortDesc": "This is a basic plane seat reservation program built with Python Tkinter, allowing users to add, remove, manage, and view current reservations.",
+    "live":"",
+    "source": "",
+    "images": [
+      [
+        "py-008/0.png",
+        "A Simple Home Page, with simple mathematical operation's"
+      ],
+      [
+        "py-008/1.png",
+        "Perform Calculations."
+      ],
+      [
+        "py-008/2.png",
+        "Keep track of the hisotry of calculations."
+      ],
+      [
+        "py-008/3.png",
+        "Keep track of the hisotry of calculations."
+      ],
+      [
+        "py-008/4.png",
+        "Keep track of the hisotry of calculations."
+      ],
+      [
+        "py-008/5.png",
+        "Keep track of the hisotry of calculations."
+      ],
+      [
+        "py-008/6.png",
+        "Keep track of the hisotry of calculations."
+      ]
+    ],
+    "desc": "This is a simple yet functional plane seat reservation program developed using Python Tkinter. It enables users to add new reservations, remove existing ones, and efficiently manage seat allocations. Additionally, it provides a clear view of the current reservation status, ensuring an organized and user-friendly booking experience.",
+    "language": [
+      ["Python",100]
+    ],
+    "features": [
+      [
+        "Seat Reservation Management",
+        "Easy Management!"
+      ],
+      [
+        "Real-Time Status View",
+        "Better tracking"
+      ],
+      [
+        "User-Friendly Interface",
+        "Intitutive Design!"
+      ],
+      [
+        "Efficient Data Handling .",
+        "Smooth"
+      ],
+      [
+        "Error Handling .",
+        "Resolve conflict"
+      ],
+      [
+        "Lightweight Application ",
+        "Light as feather!"
+      ]
+    ],
+    "size": "18 kb",
+    "future": [
+      "Seat Selection Visualization.",
+      "User Authentication.",
+      "Online Reservation System.",
+      "Confirmation Notifications.",
+      "Multiple Flight Support.",
+      "3-D model support."
+    ],
+    "bugs": [
+      "UI Freezing.",
+      "Display Issues.",
+      "Slow Performance."
+    ],
+    "projectType": "python",
+    "review": [
+      ]
+  }
+  
+}

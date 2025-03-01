@@ -1,0 +1,165 @@
+.contact{
+    background-color: #111;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 100px 0;
+    column-gap: 100px;
+    margin-top: 200px;
+}
+
+.contact div{
+    display: flex;
+    flex-direction: column;
+    row-gap: 35px;
+}
+
+.contact div h1{
+    color: #DEAD44;
+    font-size: 35px;
+    margin-bottom: 30px;
+}
+
+.contact .left a {
+    color: azure;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    column-gap: 20px;
+}
+.contact .left a span:has(i){
+    border: 1px solid white;
+    height: 40px;
+    width: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    border-radius: 50%;
+    transition: background-color .3s,color .2s;
+}
+.contact .left a:hover{
+    span:has(i){
+        background-color: aliceblue;
+        color: #111;
+    }
+}
+.contact .left a p{
+    display: inline-flex;
+    flex-direction: column;
+    row-gap: 5px;
+}
+.contact .left a p span{
+    font-family: "Outfit",system-ui;
+    white-space: nowrap;
+}
+.contact .left a p span:last-child{
+    font-size: 9px;
+    font-family: "Outfit",system-ui;
+    color: #bababa;
+    letter-spacing: 1px;
+}
+
+.contact nav{
+    margin-top: 25px;
+}
+.contact nav h2{
+    font-size: 20px;
+    margin-bottom: 25px;
+    font-family: "Outfit",system-ui;
+    color: #d19f9c;
+}
+.contact nav ul{
+    list-style: none;
+    display: flex;
+    column-gap: 30px;
+}
+.contact nav ul i{
+    color: #f7e4e3;
+}
+
+.contact nav ul li{
+    position: relative;
+}
+.contact nav ul li:hover::after{
+    position: absolute;
+    content: attr(value);
+    color: #d19f9c;
+    bottom: -20px;
+    font-size: 12px;
+    white-space: nowrap;
+    letter-spacing: .2px;
+    transform: translateX(-30%);
+}
+
+.contact .right{
+    width: 30%;
+}
+.contact .right input,
+.contact .right textarea{
+    padding: 15px 30px;
+    width: 100%;
+    background-color: transparent;
+    border:2px solid #474554;
+    border-radius: 4px;
+    outline: none;
+    resize:vertical;
+    transition: border .3s;
+    color: whitesmoke;
+    letter-spacing: 1px;
+    font-size: 16px;
+}
+
+.contact .right input:focus,
+.contact .right textarea:focus{
+    border-color: #DEAD44;
+}
+.contact .right input::placeholder,
+.contact .right textarea::placeholder{
+    color: #DEAD44;
+    font-family: "Outfit";
+    font-weight: 300;
+    letter-spacing: 1px;
+}
+
+.contact .right button{
+    /* align-self:center; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 10px;
+    font-size: 16px;
+    width: 150px;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    background-color: #DEAD44;
+}
+
+
+@media (max-width:600px) {
+    .contact{
+        display: grid;
+        margin-top: 0;
+    }
+    .contact .left{
+        margin-top: 80px;
+        order: 2;
+        width: 90vw;
+        padding:0 5vw;
+    }
+    .contact .left a{
+        margin-left: 5vw;
+    }
+
+    .contact .left nav ul{
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .contact .right{
+        order: 1;
+        width: 90vw;
+        padding: 0 5vw;
+    }
+}

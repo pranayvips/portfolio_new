@@ -1,0 +1,113 @@
+.skills{
+    background-color: #111111;
+    height: 100vh;
+    width: 100vw;
+    padding: 5% 10%;
+    user-select: none;
+}
+.skills h1{
+    text-align: center;
+    color:honeydew;
+    font-size: 35px;
+    font-family: "Outfit",system-ui;
+    margin: 20px;
+}
+.skills h3{
+    font-family: "Outfit",system-ui;
+    text-align: center;
+    color:gainsboro;
+    font-size: 20px;
+    letter-spacing: .5px;
+    font-weight: 300;
+    margin: 20px;
+}
+.skills .container{
+    /* height: 100%;
+    width: 100%; */
+    height: 60%;
+    /* padding: 0 10%; */
+    margin-top: 60px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    row-gap: 60px;
+    column-gap: 60px;
+}
+.skills .container div{
+
+}
+.skills .container div h2{
+    font-family: "Outfit",system-ui;
+    /* transform: translateY(-50%); */
+    margin-bottom: 40px;
+    color:lightcyan;
+}
+.skills .container div .project-h2{
+    animation: project-item 1s;
+}
+
+
+@keyframes skills-float {
+    0%,100%{transform: translate(0,50%);}
+    50%{transform: translate(0,-50%);}
+}
+.skills .container p{
+    font-family: "Outfit",system-ui;
+    color:lightskyblue;
+    border: 1px solid;
+    display: inline-flex;
+    column-gap: 20px;
+    padding: 6px 22px;
+    border-radius: 2px;
+    font-size: 18px;
+    align-items: center;
+    /* animation: skills-float 10s linear infinite; */
+    transition: color .4s,background-color .6s;
+    margin-right: 25px;
+    margin-left: 10px;
+    margin-bottom: 25px;
+    cursor: pointer;
+}
+@keyframes skills-p {
+    from{opacity: 0;transform: translateY(-100%);}
+    to{opacity: 1;transform: translateY(0);}
+}
+.skills .container .skill-p{
+    animation: skills-p 2s;
+}
+.skills .container p:hover{
+    background-color: #c8c8c8;
+    color: #111111;
+}
+
+
+@media (max-width:600px) {
+    .skills{
+        height: auto;
+        padding-bottom: 80px;
+    }
+    .skills .container{
+        grid-template-columns: 1fr;
+        width: 100%;
+        row-gap: 40px;
+        /* overflow-x: hidden; */
+    }
+    .skills .container div h2{
+        top: 0;
+        position: absolute;
+    }
+    .skills .container div{
+        position: relative;
+        width: 80%;
+        padding-top: 50px;
+        display: grid;
+        grid-template-columns: auto auto;
+        column-gap: 10px;
+        row-gap: 10px;
+    }
+    .skills .container p{
+        margin: 0;
+        max-width: 200px;
+        white-space: nowrap;
+        /* width: min-content; */
+    }
+}
