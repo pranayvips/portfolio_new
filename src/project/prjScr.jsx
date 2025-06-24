@@ -97,9 +97,9 @@ function PrjScr() {
         <div className="bottom">
           <h3>{title}</h3>
           <div className="tech">
-            {tech.map((val) => {
+            {tech.map((val,index) => {
               return (
-                <p>
+                <p key={index}>
                   <i className={"bx " + lang[val[0]]}></i>
                   <span>{val[0]}</span>
                 </p>

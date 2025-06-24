@@ -147,7 +147,7 @@ function Project() {
         <h1>
           <i className="bx bx-briefcase"></i> Project's
         </h1>
-        <button>
+        <button onClick={()=>{window.location.href = "/project"}}>
           <span>All Project's</span> <i className="bx bx-navigation"></i>
         </button>
       </div>
@@ -192,9 +192,9 @@ function Project() {
         <div className="bottom">
           <h3>{items[1]}</h3>
           <div className="tech">
-            {items[2].map((val) => {
+            {items[2].map((val,index) => {
               return (
-                <p>
+                <p key={index}>
                   <i className={"bx " + lang[val[0]]}></i>
                   <span>{val[0]}</span>
                 </p>

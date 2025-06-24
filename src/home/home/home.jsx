@@ -5,7 +5,7 @@ function Home() {
   useEffect(() => {
     function roleChanger(){
       hasRun.current = true;      
-      const roles = ["Web Developer","Frontend Developer","Backend Developer","Full Stack Developer"];
+      const roles = [" Web Developer","Frontend Developer","Backend Developer","Full Stack Developer"];
       const target = document.querySelector(".home .left h6");
       target.textContent = "";
       let textlength = 0;
@@ -53,9 +53,23 @@ function Home() {
     <section className="home" data-scroll-section  data-scroll data-scroll-speed="-2" data-scroll-direction="vertical">
       <div className="left">
         <h6>Web devloper</h6>
-        <h1><span>Pranay</span> <span>Prasad</span></h1>
+        <h1>
+          <span>P</span>
+          <span>r</span>
+          <span>a</span>
+          <span>n</span>
+          <span>a</span>
+          <span>y</span>
+          <span className="nbsp">&nbsp;</span>
+          <span>P</span>
+          <span>r</span>
+          <span>a</span>
+          <span>s</span>
+          <span>a</span>
+          <span>d</span>
+        </h1>
         <p>
-        Aspiring software developer pursuing Bachelor’s in Computer Applications, with a passion for coding and innovation.
+        Aspiring Web developer pursuing Bachelor’s in Computer Applications, with a passion for coding and innovation.
         </p>
         <button onClick={()=>{window.open("/Pranay_resume.pdf","_blank")}}>
           <p>

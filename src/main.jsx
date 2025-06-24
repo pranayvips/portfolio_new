@@ -2,7 +2,6 @@ import { createRoot } from 'react-dom/client'
 import './index.css'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import Home from './home/home/home'
-import React from 'react'
 import Navbar from './navbar/navbar'
 import About from './home/about/about'
 import Education from './home/education/edu'
@@ -13,7 +12,6 @@ import Contact from './contact/contact'
 import PrjScr from './project/prjScr'
 
 createRoot(document.body).render(
-  <React.StrictMode>
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Navbar />}>
@@ -42,5 +40,4 @@ createRoot(document.body).render(
         </Route>
       </Routes>
     </BrowserRouter>
-  </React.StrictMode>
 )

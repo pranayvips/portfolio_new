@@ -1,6 +1,7 @@
 import emailjs from "emailjs-com";
 import "./contact.css"
 function Contact(){
+
     function contactMe(event){
         
         emailjs.send("service_47zjwto", "template_knunars", {

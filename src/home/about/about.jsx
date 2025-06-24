@@ -131,7 +131,7 @@ function About() {
               </div>
             </li>
             <li>
-              Play chess
+              Chess
               <a href="https://www.chess.com" target="_blank">
                 (<i className="bx bxs-chess"></i>)
               </a>
