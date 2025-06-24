@@ -249,8 +249,8 @@ function projectDisplay(projectId) {
                                 <img src="/3.png" alt="" className="swiper-slide"/> */}
                     </div>
                     <div className="swiper-pagination"></div>
-                    <div class="swiper-button-next"></div>
-                    <div class="swiper-button-prev"></div>
+                    <div className="swiper-button-next"></div>
+                    <div className="swiper-button-prev"></div>
                   </div>
                   {/* <div className="image">
                     <img src="/3.png" alt="" id="slider-1" />
@@ -371,7 +371,7 @@ function projectDisplay(projectId) {
                   </div>
                   <div className="rating">
                     <h3>Average Rating</h3>
-                    <h4>{prjList["review"].reduce((acc,curr)=>acc+parseInt(curr[1]),0)/prjList["review"].length} {prjList["review"].map(()=>{return <i class='bx bxs-star' ></i>;})}</h4>
+                    <h4>{prjList["review"].reduce((acc,curr)=>acc+parseInt(curr[1]),0)/prjList["review"].length} {prjList["review"].map(()=>{return <i className='bx bxs-star' ></i>;})}</h4>
                   </div>
                   <div className="rate">
                     <fieldset className="rating-container">
@@ -492,7 +492,7 @@ function projectDisplay(projectId) {
                 document.querySelector(".prjScreen .blackout").style.display = "none";
                 document.querySelector(".prjScreen .item-display").style.display = "none";
                 startScroll()
-              }}><i class='bx bx-x-circle' ></i></button>
+              }}><i className='bx bx-x-circle' ></i></button>
                   <button className={(prjList["live"]!="")?"active":"not"} onClick={()=>{
                     if(prjList["live"]!=""){   
                         window.open(prjList["live"],"_blank")

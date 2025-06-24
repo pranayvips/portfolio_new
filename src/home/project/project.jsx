@@ -52,34 +52,9 @@ function Project() {
       });
     }
   }
-  function itemMake(image, title, tech, description, id) {
-    update();
-    return (
-      <>
-        <div
-          className="up"
-          data={description}
-          style={{ backgroundImage: `url(${"./img/" + image})` }}
-          onClick={() => projectDisplay(id)}
-        >
-          <img src={"./img/" + image} alt="" />
-        </div>
-        <div className="bottom">
-          <h3>{title}</h3>
-          <div className="tech">
-            {tech.map((val) => {
-              return (
-                <p>
-                  <i className={"bx " + lang[val[0]]}></i>
-                  <span>{val[0]}</span>
-                </p>
-              );
-            })}
-          </div>
-        </div>
-      </>
-    );
-  }
+  // function itemMake(image, title, tech, description, id,index) {
+    
+  // }
   function projectDisplay(projectId) {
 
     fetch("/content.json")
@@ -194,6 +169,8 @@ function Project() {
       </div>
       <div className="display" id="display">
         {item.map((items, index) => {
+          // update();
+          // function itemMake(image, title, tech, description, id,index) {
           return (
             <div
               className="item"
@@ -202,7 +179,30 @@ function Project() {
               data-scroll-class={index % 2 == 0 ? "item1" : "item2"}
               data-scroll-repeat="true"
             >
-              {itemMake(items[0], items[1], items[2], items[3], items[4])}
+              {/* {itemMake(items[0], items[1], items[2], items[3], items[4],index)} */}
+
+        <div
+          className="up"
+          data={items[3]}
+          style={{ backgroundImage: `url(${"./img/" + items[0]})` }}
+          onClick={() => projectDisplay( items[4])}
+        >
+          <img src={"./img/" + items[0]} alt="" />
+        </div>
+        <div className="bottom">
+          <h3>{items[1]}</h3>
+          <div className="tech">
+            {items[2].map((val) => {
+              return (
+                <p>
+                  <i className={"bx " + lang[val[0]]}></i>
+                  <span>{val[0]}</span>
+                </p>
+              );
+            })}
+          </div>
+        </div>
+    
             </div>
           );
         })}
@@ -246,8 +246,8 @@ function Project() {
                         <img src="/3.png" alt="" className="swiper-slide"/> */}
             </div>
             <div className="swiper-pagination"></div>
-            <div class="swiper-button-next"></div>
-            <div class="swiper-button-prev"></div>
+            <div className="swiper-button-next"></div>
+            <div className="swiper-button-prev"></div>
           </div>
           {/* <div className="image">
             <img src="/3.png" alt="" id="slider-1" />
@@ -368,7 +368,7 @@ function Project() {
           </div>
           <div className="rating">
             <h3>Average Rating</h3>
-            <h4>{prjList["review"].reduce((acc,curr)=>acc+parseInt(curr[1]),0)/prjList["review"].length} {prjList["review"].map(()=>{return <i class='bx bxs-star' ></i>;})}</h4>
+            <h4>{prjList["review"].reduce((acc,curr)=>acc+parseInt(curr[1]),0)/prjList["review"].length} {prjList["review"].map(()=>{return <i className='bx bxs-star' ></i>;})}</h4>
           </div>
           <div className="rate">
             <fieldset className="rating-container">
@@ -489,7 +489,7 @@ function Project() {
         document.querySelector(".project .blackout").style.display = "none";
         document.querySelector(".project .item-display").style.display = "none";
         startScroll()
-      }}><i class='bx bx-x-circle' ></i></button>
+      }}><i className='bx bx-x-circle' ></i></button>
           <button className={(prjList["live"]!="")?"active":"not"} onClick={()=>{
             if(prjList["live"]!=""){   
                 window.open(prjList["live"],"_blank")

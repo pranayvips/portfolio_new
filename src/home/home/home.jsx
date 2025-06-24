@@ -5,7 +5,7 @@ function Home() {
   useEffect(() => {
     function roleChanger(){
       hasRun.current = true;      
-      const roles = [" App Developer","Frontend Developer","Backend Developer","Full Stack Developer"];
+      const roles = ["Web Developer","Frontend Developer","Backend Developer","Full Stack Developer"];
       const target = document.querySelector(".home .left h6");
       target.textContent = "";
       let textlength = 0;

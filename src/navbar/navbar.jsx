@@ -79,12 +79,12 @@ function Navbar() {
               </svg>
               <span>Social</span>
               <nav>
-                <i class='bx bxl-instagram' onClick={()=>{window.open("https://www.instagram.com/pranay.4862/","_blank")}} ></i>
-                <i class='bx bxl-twitter' onClick={()=>{window.open("https://x.com/Pranay4862","_blank")}}></i>
-                <i class='bx bxl-whatsapp' onClick={()=>{window.open("https://api.whatsapp.com/send?phone=916203241318&text=Hello,%20more%20information!","_blank")}}></i>
-                <i class='bx bxl-linkedin' onClick={()=>{window.open("https://www.linkedin.com/in/pranay-prasad-/","_blank")}}></i>
-                <i class='bx bxl-github' onClick={()=>{window.open("https://github.com/pranayvips","_blank")}}></i>
-                <i class='bx bxl-codepen' onClick={()=>{window.open("https://leetcode.com/u/pranay_4862/","_blank")}}></i>
+                <i className='bx bxl-instagram' onClick={()=>{window.open("https://www.instagram.com/pranay.4862/","_blank")}} ></i>
+                <i className='bx bxl-twitter' onClick={()=>{window.open("https://x.com/Pranay4862","_blank")}}></i>
+                <i className='bx bxl-whatsapp' onClick={()=>{window.open("https://api.whatsapp.com/send?phone=916203241318&text=Hello,%20more%20information!","_blank")}}></i>
+                <i className='bx bxl-linkedin' onClick={()=>{window.open("https://www.linkedin.com/in/pranay-prasad-/","_blank")}}></i>
+                <i className='bx bxl-github' onClick={()=>{window.open("https://github.com/pranayvips","_blank")}}></i>
+                <i className='bx bxl-codepen' onClick={()=>{window.open("https://leetcode.com/u/pranay_4862/","_blank")}}></i>
               </nav>
          </button>
       <button onClick={()=>scroller(".contact")}>
